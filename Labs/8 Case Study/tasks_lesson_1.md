@@ -14,3 +14,5 @@ Use the Date of birth column to find the age.
 As an exercise, split the column Domain and use vlook_up from the file vlookup_table.csv to check which kind of neighborhood they live in (ie. urban, city, town, rural, etc.).
 
 After merging all the data together, start with the data cleaning operations as mentioned in the lesson.
+
+https://github.com/raafat-hantoush/IH_RH_DA_FT_AUG_2021/blob/main/Class%20Materials/Pandas/Labs/Health_Care_For_All_Case_Study/tasks_lesson_1.md 
