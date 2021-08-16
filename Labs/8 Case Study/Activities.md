@@ -53,3 +53,5 @@ More about data wrangling/cleaning using MS Excel:
     Standardizing data
     ImportRange and indirect (use the same data with spreadsheets)
     Using V lookups/H lookups
+
+https://github.com/raafat-hantoush/IH_RH_DA_FT_AUG_2021/blob/main/Class%20Materials/Pandas/Labs/Health_Care_For_All_Case_Study/Activities.md
