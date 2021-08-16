@@ -14,32 +14,81 @@ File automatically generated. See the documentation to update questions/answers/
 
 #### 1. Import the numpy package under the name `np` (★☆☆)
 `hint: import … as`
+import numpy as np
+
 #### 2. Print the numpy version and the configuration (★☆☆)
 `hint: np.__version__, np.show_config)`
+print (np.__version__)
+print(np.show_config())
+
 #### 3. Create a null vector of size 10 (★☆☆)
 `hint: np.zeros`
+np.zeros(10)
+array ([0,0,0,0,0,0,0,0,0,0])
+
 #### 4. How to find the memory size of any array (★☆☆)
 `hint: size, itemsize`
+a.size 
+a.itemsize
+
 #### 5. How to get the documentation of the numpy add function from the command line? (★☆☆)
 `hint: np.info`
+python -c "import numpy; numpy.info(numpy.add)"
+
 #### 6. Create a null vector of size 10 but the fifth value which is 1 (★☆☆)
 `hint: array[4]`
+a = np.zeros(10)
+a[4] = 1
+print(a)
+
 #### 7. Create a vector with values ranging from 10 to 49 (★☆☆)
 `hint: arange`
+a = np.arange(10,50)
+
 #### 8. Reverse a vector (first element becomes last) (★☆☆)
 `hint: array[::-1]`
+a = np.arange(10,50)
+a= a[::-1]
+print (a)
+
 #### 9. Create a 3x3 matrix with values ranging from 0 to 8 (★☆☆)
 `hint: reshape`
+Z = np.arange(9).reshape(3,3)
+print (Z)
+[[0 1 2]
+ [3 4 5]
+ [6 7 8]]
+
 #### 10. Find indices of non-zero elements from [1,2,0,0,4,0] (★☆☆)
 `hint: np.nonzero`
+a= np.nonzero([1,2,0,0,4,0])
+print (a)
+array([0, 1, 4]),)
+
 #### 11. Create a 3x3 identity matrix (★☆☆)
 `hint: np.eye`
+a = np.eye(3)
+print (a)
+[[ 1.  0.  0.]
+ [ 0.  1.  0.]
+ [ 0.  0.  1.]]
+
 #### 12. Create a 3x3x3 array with random values (★☆☆)
 `hint: np.random.random`
+np.random.uniform((3,3,3))
+
 #### 13. Create a 10x10 array with random values and find the minimum and maximum values (★☆☆)
 `hint: min, max`
+a = np.random.random((10,10))
+amin, amax = a.min(), a.max()
+print(amin, amax)
+
 #### 14. Create a random vector of size 30 and find the mean value (★☆☆)
 `hint: mean`
+a = np.random.random(10)
+m = a.mean()
+print (m)
+
 #### 15. Create a 2d array with 1 on the border and 0 inside (★☆☆)
 `hint: array[1:-1, 1:-1]`
 #### 16. How to add a border (filled with 0's) around an existing array? (★☆☆)
