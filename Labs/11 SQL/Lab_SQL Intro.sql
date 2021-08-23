@@ -1,0 +1,23 @@
+SELECT * FROM actor;
+SELECT * FROM address;
+SELECT * FROM category;
+SELECT * FROM city;
+SELECT * FROM country;
+SELECT * FROM film;
+SELECT title FROM film;
+SELECT * FROM film;
+SELECT * FROM language;
+SELECT DISTINCT name FROM language;
+SELECT name AS language FROM language;
+SELECT * FROM store;
+SELECT COUNT (store_id) from store WHERE store_id;
+SELECT COUNT(*) FROM store_id;
+SELECT count(store_id) FROM store;
+SELECT * FROM staff;
+SELECT * FROM store;
+SELECT * FROM staff;
+SELECT COUNT(*) FROM staff;
+select * FROM sakila.staff;
+SELECT COUNT(*) FROM sakila.staff;
+SELECT first_name from sakila.staff;
+
